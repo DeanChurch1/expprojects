@@ -2,8 +2,11 @@ package AboutMe;
 
 public class AboutMe {
 
-	public AboutMe() {
+	public AboutMe() { 
+		/*String period = "period";*/
 		String period = "period";
+		String string = " string";
+		System.out.println(period + string);
 		System.out.println("Dean Church Schedule");
 		System.out.println("period 1 Physics 8:00 - 9:10");
 		System.out.println("period 2 French 9:15 to 10:25");
@@ -20,6 +23,7 @@ public class AboutMe {
 
 	public static void main(String[] args) {
 		new AboutMe();
+
 
 	}
 
