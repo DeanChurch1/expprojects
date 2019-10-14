@@ -24,38 +24,31 @@ public class Madlib {
 		String adj2 = input.nextLine();
 
 		
-		System.out.println("enter a plural noun");
-		
+		System.out.println("enter a plural noun");		
 		String plural_noun = input.nextLine();
 
 		
-		System.out.println("enter another plural noun");
-		
+		System.out.println("enter another plural noun");	
 		String plural_noun2 = input.nextLine();
 
 		
-		System.out.println("enter noun");
-		
+		System.out.println("enter noun");		
 		String noun = input.nextLine();
 
 		
-		System.out.println("enter adjective");
-		
+		System.out.println("enter adjective");		
 		String adj3 = input.nextLine();
 		
-		System.out.println("enter an animal");
-		
+		System.out.println("enter an animal");		
 		String animal = input.nextLine();
 		
-		System.out.println("enter an adjective");
-		
+		System.out.println("enter an adjective");		
 		String adj4 = input.nextLine();
 		
-		System.out.println("enter another noun");
-		
+		System.out.println("enter another noun");		
 		String noun2 = input.nextLine();
 		
-
+        //String df = input.nextLine();
 		
 		System.out.println("Halloween is the best time to "+verb);
 		System.out.println("The weather is "+ adj1 +" and "+ adj2 + 

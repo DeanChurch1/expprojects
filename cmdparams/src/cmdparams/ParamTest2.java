@@ -19,56 +19,36 @@ public class ParamTest2 {
 		}
 		*/
 		
-		int i = 0;
+		/*int i = 0;
 		while(i < args.length) {
 			System.out.println("Parameter "+ i + ":" + args[i]);
 			i++;
-		}
-		System.out.println("enter your Name");
-		String name = input.nextLine();
-		System.out.println("Thanks");
+		*/
 		
-		System.out.println("enter your age");
-		int age = input.nextInt();
-		System.out.println("Thanks");
-		
-		System.out.println("enter your graduation year");
-		int gradyear = input.nextInt();
-		System.out.println("Thanks");
-		
-		System.out.println("enter your favorite food");
-		
-		String fav_food = input.nextLine();
-		System.out.println("Thanks");
-		
-		System.out.println("enter your phone #");
-		
-		String phone_number = input.nextLine();
-		System.out.println("Thanks");
-		
-		System.out.println("enter your ssn");
-		
-		String ssn = input.nextLine();
-		System.out.println("Thanks");
-		
-		System.out.println("enter your ccn");
-		
-		String credit_card_num = input.nextLine();
 
+		
 		
 		//String maiden;
 		//float bank_baleance;
 		
 		
-		System.out.println("hello " + name);
-		System.out.println("age: " + age);
-		System.out.println("graduation year: " + gradyear);
-		System.out.println("Favorite food " + fav_food);
-		System.out.println("Phone number " + phone_number);
-		System.out.println("Social Security # " + ssn);
-		System.out.println("Credit card # " + credit_card_num);
-		//System.out.println("hello " + name);
-		//System.out.println("hello " + name);
+		String first;
+		String last;
+		String ssn;
+		String birthdate;
+		double num;
+		
+		System.out.println("Enter your first and last name, ssn, birthday");
+		
+		first = input.next();
+		last = input.next();
+		ssn = input.next();
+		birthdate = input.next();
+		num = input.nextInt();
+		
+		System.out.println("hello " + first +" "+ last);
+		System.out.println("SSN = "+ssn);
+		System.out.println("Birthday = "+birthdate);
 		
 		input.close();
 		
