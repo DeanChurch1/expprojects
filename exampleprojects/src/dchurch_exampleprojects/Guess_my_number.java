@@ -195,19 +195,10 @@ public class Guess_my_number {
 		
 		
 		print("The computer will guess your number");
-		print("Enter your number");
+		print("Think of a number the computer will guess it");
 
 		int num = input.nextInt();
-		
-		if(num>10) {
-			print("not a valid number");
-		}
-		else {
-			print("that is a good number");
-		}
-		
 
-		
 		while(num != random) {
 
 				print("The computer guesses " + random );
