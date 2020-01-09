@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.math.RoundingMode"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ThreadLocalRandom"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="javax.swing.BorderFactory"/>
+    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+    <fullyQualifiedTypeName name="javax.swing.border.Border"/>
+    <fullyQualifiedTypeName name="jbPlayers.Deputy"/>
+    <fullyQualifiedTypeName name="jbPlayers.Kingpin"/>
+    <fullyQualifiedTypeName name="players.AbstractGamePiece"/>
+    <fullyQualifiedTypeName name="game.GameSquare"/>
+    <fullyQualifiedTypeName name="players.Kingpin"/>
+    <fullyQualifiedTypeName name="players.Henchman"/>
+    <fullyQualifiedTypeName name="players.Deputy"/>
+    <fullyQualifiedTypeName name="game.GameBoard"/>
 </qualifiedTypeNameHistroy>
